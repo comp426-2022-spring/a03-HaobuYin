@@ -1,0 +1,23 @@
+{
+  "name": "a03_api",
+  "version": "0.1.1",
+  "description": "Api to flip some coins",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-spring/a03-HaobuYin.git"
+  },
+  "author": "haobu",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a03-HaobuYin/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a03-HaobuYin#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "yargs": "^17.3.1"
+  }
+}

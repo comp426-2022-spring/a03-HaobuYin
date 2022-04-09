@@ -72,7 +72,7 @@ app.get('/app/flip', (req, res) => {
 })
 
 app.get('/app/flips/:number', (req, res)=>{
-    if (req.params.number < 1 || req.params.number > 100) {
+    if (req.params.number < 1 || req.params.number > 10000) {
         res.status(200).end('invalid flip number')
     } else {
         const flips = coinFlips(req.params.number)
